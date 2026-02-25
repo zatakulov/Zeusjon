@@ -1,0 +1,23 @@
+name: shaxsiy_byudjet_flutter_v2
+description: Excel logikasi asosidagi shaxsiy byudjet mobil ilovasi (Android-ready Flutter project)
+publish_to: "none"
+version: 0.2.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  http: ^1.2.2
+  fl_chart: ^0.68.0
+  shared_preferences: ^2.3.2
+  local_auth: ^2.3.0
+  csv: ^6.0.0
+
+flutter:
+  uses-material-design: true
